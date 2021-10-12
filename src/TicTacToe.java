@@ -162,7 +162,7 @@ public class TicTacToe {
                 return "Congratulations, you win!";
 
             } else if (cpuPositions.containsAll(l)) {
-                return "Gamer over. the CPU wins.";
+                return "Game over. The CPU wins.";
 
             } else if (playerPositions.size() + cpuPositions.size() == 9) {
                 return "Tie game.";
